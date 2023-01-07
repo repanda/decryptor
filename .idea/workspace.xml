@@ -4,27 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11fadf52-cde1-4f9b-9cd5-32b2e5a83044" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/AESHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/AccountData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/BCFileDecryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/Base64Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/FileData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/HashHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/PBKDF2Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/RSAHelper.java" afterDir="false" />
+    <list default="true" id="11fadf52-cde1-4f9b-9cd5-32b2e5a83044" name="Changes" comment="fix dependencies">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/service/AESHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/service/DecryptorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/service/FileData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/service/RSAHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DecryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/AESHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/AccountData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/service/AccountData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/BCFileDecryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/BCFileDecryptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/Base64Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/service/Base64Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/FileData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/HashHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/service/HashHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/PBKDF2Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/service/PBKDF2Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repanda/decryptor/RSAHelper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,16 +51,56 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/khaled/Documents/projects/decryptor/src/main/java/org/repanda/decryptor"
+    "last_opened_file_path": "/home/khaled/Documents/projects/decryptor",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/main/java/org/repanda/decryptor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DecryptTest.decryptFile">
+    <configuration name="BCFileDecryptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.repanda.decryptor.BCFileDecryptor" />
+      <module name="decryptor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.repanda.decryptor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecryptTest.decryptFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="decryptor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DecryptTest" />
+      <option name="METHOD_NAME" value="decryptFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DecryptTest.decryptFile" />
+        <item itemvalue="Application.BCFileDecryptor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,6 +111,44 @@
       <option name="presentableId" value="Default" />
       <updated>1673092156464</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1673094884729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673094884729</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix dependencies">
+      <created>1673101213130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673101213130</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix dependencies">
+      <created>1673101319961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673101319961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="fix dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix dependencies" />
   </component>
 </project>
